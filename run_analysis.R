@@ -30,10 +30,10 @@ y_train <- read.table(unz(temp, "UCI HAR Dataset/train/y_train.txt"))
 
 ## 1. Merges the training data and the test data into one dataset.
 
-colnames(subj_test) <- "Subject"
-colnames(subj_train) <- "Subject"
-colnames(y_test) <- "Activity"
-colnames(y_train) <- "Activity"
+colnames(subj_test) <- "subject"
+colnames(subj_train) <- "subject"
+colnames(y_test) <- "activity"
+colnames(y_train) <- "activity"
 colnames(x_test) <- features$V2
 colnames(x_train) <- features$V2
 
@@ -55,9 +55,11 @@ dataset2 <- dataset[c(1,2,index)]   ## columns 1 and 2:subject and activity info
 dataset2$Activity <- factor(dataset2$Activity,activity_labels$V1,
                             activity_labels$V2)
 
-## remove/replace special characters in the variables names
-dataset2_colnames <- sapply(names(dataset2), function(x) gsub("([-,])","_",x))
-colnames(dataset2) <- sapply(dataset2_colnames, function(x) gsub("([()])","",x))
+## converto to lower case and remove/replace special characters in the 
+## variables names
+dataset2_colnames <- sapply(names(dataset2), tolower)
+colnames(dataset2) <- sapply(dataset2_colnames, gsub, 
+                             pattern="([-,()])", replacement="")
 
 ## 5.Creates a second, independent tidy data set with the average of each 
 ## variable for each activity and each subject. 
@@ -69,9 +71,9 @@ colnames(dataset2) <- sapply(dataset2_colnames, function(x) gsub("([()])","",x))
 ## 4. If you have multiple tables, they should include a column in the table
 ##    that allows them to be linked
 
-datasetMelt<-melt(dataset2,id=c("Activity","Subject"),
+datasetMelt<-melt(dataset2,id=c("activity","subject"),
                   measure.vars=names(dataset2[3:68]))
-dataset3 <- dcast(datasetMelt, Activity+Subject ~ variable, mean)
+dataset3 <- dcast(datasetMelt, activity+subject ~ variable, mean)
 
-## 6. write to tidy_data_set.csv
-write.csv(dataset3, "tidy_dataset.csv", row.names = FALSE)
+## 6. write to tidydataset.csv
+write.csv(dataset3, "tidydataset.csv", row.names = FALSE)

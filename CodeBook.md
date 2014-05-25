@@ -88,16 +88,16 @@ The following operations were performed on the data:
 
 ### Tidy Data Set Summary
 
-####  Activity
+####    activity
 
-        walking           :30  
-        walking_upstairs  :30  
-        walking_downstairs:30  
-        sitting           :30  
-        standing          :30  
-        laying            :30  
+        Min.   :1.0  
+        1st Qu.:2.0  
+        Median :3.5  
+        Mean   :3.5  
+        3rd Qu.:5.0  
+        Max.   :6.0  
 
-####  Subject
+####    subject
 
         Min.   : 1.0  
         1st Qu.: 8.0  
@@ -106,7 +106,7 @@ The following operations were performed on the data:
         3rd Qu.:23.0  
         Max.   :30.0  
 
-####  tBodyAcc_mean_X
+####  tbodyaccmeanx
 
         Min.   :0.2216  
         1st Qu.:0.2712  
@@ -115,7 +115,7 @@ The following operations were performed on the data:
         3rd Qu.:0.2800  
         Max.   :0.3015  
 
-####  tBodyAcc_mean_Y
+####  tbodyaccmeany
 
         Min.   :-0.040514  
         1st Qu.:-0.020022  
@@ -124,7 +124,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.014936  
         Max.   :-0.001308  
 
-####  tBodyAcc_mean_Z
+####  tbodyaccmeanz
 
         Min.   :-0.15251  
         1st Qu.:-0.11207  
@@ -133,7 +133,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.10443  
         Max.   :-0.07538  
 
-####  tBodyAcc_std_X
+####  tbodyaccstdx
 
         Min.   :-0.9961  
         1st Qu.:-0.9799  
@@ -142,7 +142,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1984  
         Max.   : 0.6269  
 
-####  tBodyAcc_std_Y
+####  tbodyaccstdy
 
         Min.   :-0.99024  
         1st Qu.:-0.94205  
@@ -151,7 +151,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.03077  
         Max.   : 0.61694  
 
-####  tBodyAcc_std_Z
+####  tbodyaccstdz
 
         Min.   :-0.9877  
         1st Qu.:-0.9498  
@@ -160,7 +160,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2306  
         Max.   : 0.6090  
 
-####  tGravityAcc_mean_X
+####  tgravityaccmeanx
 
         Min.   :-0.6800  
         1st Qu.: 0.8376  
@@ -169,7 +169,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.9425  
         Max.   : 0.9745  
 
-####  tGravityAcc_mean_Y
+####  tgravityaccmeany
 
         Min.   :-0.47989  
         1st Qu.:-0.23319  
@@ -178,7 +178,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.08773  
         Max.   : 0.95659  
 
-####  tGravityAcc_mean_Z
+####  tgravityaccmeanz
 
         Min.   :-0.49509  
         1st Qu.:-0.11726  
@@ -187,7 +187,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.14946  
         Max.   : 0.95787  
 
-####  tGravityAcc_std_X
+####  tgravityaccstdx
 
         Min.   :-0.9968  
         1st Qu.:-0.9825  
@@ -196,7 +196,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.9509  
         Max.   :-0.8296  
 
-####  tGravityAcc_std_Y
+####  tgravityaccstdy
 
         Min.   :-0.9942  
         1st Qu.:-0.9711  
@@ -205,7 +205,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.9370  
         Max.   :-0.6436  
 
-####  tGravityAcc_std_Z
+####  tgravityaccstdz
 
         Min.   :-0.9910  
         1st Qu.:-0.9605  
@@ -214,7 +214,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.9180  
         Max.   :-0.6102  
 
-####  tBodyAccJerk_mean_X
+####  tbodyaccjerkmeanx
 
         Min.   :0.04269  
         1st Qu.:0.07396  
@@ -223,7 +223,7 @@ The following operations were performed on the data:
         3rd Qu.:0.08330  
         Max.   :0.13019  
 
-####  tBodyAccJerk_mean_Y
+####  tbodyaccjerkmeany
 
         Min.   :-0.0386872  
         1st Qu.: 0.0004664  
@@ -232,7 +232,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.0134008  
         Max.   : 0.0568186  
 
-####  tBodyAccJerk_mean_Z
+####  tbodyaccjerkmeanz
 
         Min.   :-0.067458  
         1st Qu.:-0.010601  
@@ -241,7 +241,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.001958  
         Max.   : 0.038053  
 
-####  tBodyAccJerk_std_X
+####  tbodyaccjerkstdx
 
         Min.   :-0.9946  
         1st Qu.:-0.9832  
@@ -250,7 +250,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2233  
         Max.   : 0.5443  
 
-####  tBodyAccJerk_std_Y
+####  tbodyaccjerkstdy
 
         Min.   :-0.9895  
         1st Qu.:-0.9724  
@@ -259,7 +259,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1483  
         Max.   : 0.3553  
 
-####  tBodyAccJerk_std_Z
+####  tbodyaccjerkstdz
 
         Min.   :-0.99329  
         1st Qu.:-0.98266  
@@ -268,7 +268,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.51212  
         Max.   : 0.03102  
 
-####  tBodyGyro_mean_X
+####  tbodygyromeanx
 
         Min.   :-0.20578  
         1st Qu.:-0.04712  
@@ -277,7 +277,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.01676  
         Max.   : 0.19270  
 
-####  tBodyGyro_mean_Y
+####  tbodygyromeany
 
         Min.   :-0.20421  
         1st Qu.:-0.08955  
@@ -286,7 +286,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.06113  
         Max.   : 0.02747  
 
-####  tBodyGyro_mean_Z
+####  tbodygyromeanz
 
         Min.   :-0.07245  
         1st Qu.: 0.07475  
@@ -295,7 +295,7 @@ The following operations were performed on the data:
         3rd Qu.: 0.10177  
         Max.   : 0.17910  
 
-####  tBodyGyro_std_X
+####  tbodygyrostdx
 
         Min.   :-0.9943  
         1st Qu.:-0.9735  
@@ -304,7 +304,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4414  
         Max.   : 0.2677  
 
-####  tBodyGyro_std_Y
+####  tbodygyrostdy
 
         Min.   :-0.9942  
         1st Qu.:-0.9629  
@@ -313,8 +313,8 @@ The following operations were performed on the data:
         3rd Qu.:-0.4196  
         Max.   : 0.4765  
 
-####  tBodyGyro_std_Z
-        
+####  tbodygyrostdz
+
         Min.   :-0.9855  
         1st Qu.:-0.9609  
         Median :-0.8010  
@@ -322,7 +322,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.3106  
         Max.   : 0.5649  
 
-####  tBodyGyroJerk_mean_X
+####  tbodygyrojerkmeanx
 
         Min.   :-0.15721  
         1st Qu.:-0.10322  
@@ -331,8 +331,8 @@ The following operations were performed on the data:
         3rd Qu.:-0.09110  
         Max.   :-0.02209  
 
-####  tBodyGyroJerk_mean_Y
-        
+####  tbodygyrojerkmeany
+
         Min.   :-0.07681  
         1st Qu.:-0.04552  
         Median :-0.04112  
@@ -340,7 +340,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.03842  
         Max.   :-0.01320  
 
-####  tBodyGyroJerk_mean_Z
+####  tbodygyrojerkmeanz
 
         Min.   :-0.092500  
         1st Qu.:-0.061725  
@@ -349,7 +349,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.048985  
         Max.   :-0.006941  
 
-####  tBodyGyroJerk_std_X
+####  tbodygyrojerkstdx
 
         Min.   :-0.9965  
         1st Qu.:-0.9800  
@@ -358,7 +358,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4629  
         Max.   : 0.1791  
 
-####  tBodyGyroJerk_std_Y
+####  tbodygyrojerkstdy
 
         Min.   :-0.9971  
         1st Qu.:-0.9832  
@@ -367,7 +367,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.5861  
         Max.   : 0.2959  
 
-####  tBodyGyroJerk_std_Z
+####  tbodygyrojerkstdz
 
         Min.   :-0.9954  
         1st Qu.:-0.9848  
@@ -376,7 +376,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4741  
         Max.   : 0.1932  
 
-####  tBodyAccMag_mean
+####  tbodyaccmagmean
 
         Min.   :-0.9865  
         1st Qu.:-0.9573  
@@ -385,7 +385,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.0919  
         Max.   : 0.6446  
 
-####  tBodyAccMag_std
+####  tbodyaccmagstd
 
         Min.   :-0.9865  
         1st Qu.:-0.9430  
@@ -394,7 +394,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2090  
         Max.   : 0.4284  
 
-####  tGravityAccMag_mean
+####  tgravityaccmagmean
 
         Min.   :-0.9865  
         1st Qu.:-0.9573  
@@ -403,7 +403,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.0919  
         Max.   : 0.6446  
 
-####  tGravityAccMag_std
+####  tgravityaccmagstd
 
         Min.   :-0.9865  
         1st Qu.:-0.9430  
@@ -412,7 +412,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2090  
         Max.   : 0.4284  
 
-####  tBodyAccJerkMag_mean
+####  tbodyaccjerkmagmean
 
         Min.   :-0.9928  
         1st Qu.:-0.9807  
@@ -421,7 +421,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2456  
         Max.   : 0.4345  
 
-####  tBodyAccJerkMag_std
+####  tbodyaccjerkmagstd
 
         Min.   :-0.9946  
         1st Qu.:-0.9765  
@@ -430,7 +430,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2173  
         Max.   : 0.4506  
 
-####  tBodyGyroMag_mean
+####  tbodygyromagmean
 
         Min.   :-0.9807  
         1st Qu.:-0.9461  
@@ -439,7 +439,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2159  
         Max.   : 0.4180  
 
-####  tBodyGyroMag_std
+####  tbodygyromagstd
 
         Min.   :-0.9814  
         1st Qu.:-0.9476  
@@ -448,7 +448,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.3602  
         Max.   : 0.3000  
 
-####  tBodyGyroJerkMag_mean
+####  tbodygyrojerkmagmean
 
         Min.   :-0.99732  
         1st Qu.:-0.98515  
@@ -457,7 +457,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.51186  
         Max.   : 0.08758  
 
-####  tBodyGyroJerkMag_std
+####  tbodygyrojerkmagstd
 
         Min.   :-0.9977  
         1st Qu.:-0.9805  
@@ -466,7 +466,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.5767  
         Max.   : 0.2502  
 
-####  fBodyAcc_mean_X
+####  fbodyaccmeanx
 
         Min.   :-0.9952  
         1st Qu.:-0.9787  
@@ -475,7 +475,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2174  
         Max.   : 0.5370  
 
-####  fBodyAcc_mean_Y
+####  fbodyaccmeany
 
         Min.   :-0.98903  
         1st Qu.:-0.95361  
@@ -484,7 +484,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.06341  
         Max.   : 0.52419  
 
-####  fBodyAcc_mean_Z
+####  fbodyaccmeanz
 
         Min.   :-0.9895  
         1st Qu.:-0.9619  
@@ -493,8 +493,8 @@ The following operations were performed on the data:
         3rd Qu.:-0.3183  
         Max.   : 0.2807  
 
-####  fBodyAcc_std_X
-        
+####  fbodyaccstdx
+
         Min.   :-0.9966  
         1st Qu.:-0.9820  
         Median :-0.7470  
@@ -502,7 +502,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1966  
         Max.   : 0.6585  
 
-####  fBodyAcc_std_Y
+####  fbodyaccstdy
 
         Min.   :-0.99068  
         1st Qu.:-0.94042  
@@ -511,7 +511,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.07913  
         Max.   : 0.56019  
 
-####  fBodyAcc_std_Z
+####  fbodyaccstdz
 
         Min.   :-0.9872  
         1st Qu.:-0.9459  
@@ -520,7 +520,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2655  
         Max.   : 0.6871  
 
-####  fBodyAccJerk_mean_X
+####  fbodyaccjerkmeanx
 
         Min.   :-0.9946  
         1st Qu.:-0.9828  
@@ -529,7 +529,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2820  
         Max.   : 0.4743  
 
-####  fBodyAccJerk_mean_Y
+####  fbodyaccjerkmeany
 
         Min.   :-0.9894  
         1st Qu.:-0.9725  
@@ -538,7 +538,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1963  
         Max.   : 0.2767  
 
-####  fBodyAccJerk_mean_Z
+####  fbodyaccjerkmeanz
 
         Min.   :-0.9920  
         1st Qu.:-0.9796  
@@ -547,7 +547,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4697  
         Max.   : 0.1578  
 
-####  fBodyAccJerk_std_X
+####  fbodyaccjerkstdx
 
         Min.   :-0.9951  
         1st Qu.:-0.9847  
@@ -556,7 +556,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2475  
         Max.   : 0.4768  
 
-####  fBodyAccJerk_std_Y
+####  fbodyaccjerkstdy
 
         Min.   :-0.9905  
         1st Qu.:-0.9737  
@@ -565,7 +565,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1685  
         Max.   : 0.3498  
 
-####  fBodyAccJerk_std_Z
+####  fbodyaccjerkstdz
 
         Min.   :-0.993108  
         1st Qu.:-0.983747  
@@ -574,7 +574,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.543787  
         Max.   :-0.006236  
 
-####  fBodyGyro_mean_X
+####  fbodygyromeanx
 
         Min.   :-0.9931  
         1st Qu.:-0.9697  
@@ -583,7 +583,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.3387  
         Max.   : 0.4750  
 
-####  fBodyGyro_mean_Y
+####  fbodygyromeany
 
         Min.   :-0.9940  
         1st Qu.:-0.9700  
@@ -592,7 +592,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4458  
         Max.   : 0.3288  
 
-####  fBodyGyro_mean_Z
+####  fbodygyromeanz
 
         Min.   :-0.9860  
         1st Qu.:-0.9624  
@@ -601,7 +601,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2635  
         Max.   : 0.4924  
 
-####  fBodyGyro_std_X
+####  fbodygyrostdx
 
         Min.   :-0.9947  
         1st Qu.:-0.9750  
@@ -610,7 +610,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4813  
         Max.   : 0.1966  
 
-####  fBodyGyro_std_Y
+####  fbodygyrostdy
 
         Min.   :-0.9944  
         1st Qu.:-0.9602  
@@ -619,7 +619,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4154  
         Max.   : 0.6462  
 
-####  fBodyGyro_std_Z
+####  fbodygyrostdz
 
         Min.   :-0.9867  
         1st Qu.:-0.9643  
@@ -628,7 +628,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.3916  
         Max.   : 0.5225  
 
-####  fBodyAccMag_mean
+####  fbodyaccmagmean
 
         Min.   :-0.9868  
         1st Qu.:-0.9560  
@@ -637,7 +637,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1622  
         Max.   : 0.5866  
 
-####  fBodyAccMag_std
+####  fbodyaccmagstd
 
         Min.   :-0.9876  
         1st Qu.:-0.9452  
@@ -646,7 +646,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.3654  
         Max.   : 0.1787  
 
-####  fBodyBodyAccJerkMag_mean
+####  fbodybodyaccjerkmagmean
 
         Min.   :-0.9940  
         1st Qu.:-0.9770  
@@ -655,7 +655,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.1872  
         Max.   : 0.5384  
 
-####  fBodyBodyAccJerkMag_std
+####  fbodybodyaccjerkmagstd
 
         Min.   :-0.9944  
         1st Qu.:-0.9752  
@@ -664,7 +664,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.2668  
         Max.   : 0.3163  
 
-####  fBodyBodyGyroMag_mean
+####  fbodybodygyromagmean
 
         Min.   :-0.9865  
         1st Qu.:-0.9616  
@@ -673,7 +673,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4087  
         Max.   : 0.2040  
 
-####  fBodyBodyGyroMag_std
+####  fbodybodygyromagstd
 
         Min.   :-0.9815  
         1st Qu.:-0.9488  
@@ -682,7 +682,7 @@ The following operations were performed on the data:
         3rd Qu.:-0.4277  
         Max.   : 0.2367  
 
-####  fBodyBodyGyroJerkMag_mean
+####  fbodybodygyrojerkmagmean
 
         Min.   :-0.9976  
         1st Qu.:-0.9813  
@@ -691,14 +691,14 @@ The following operations were performed on the data:
         3rd Qu.:-0.5831  
         Max.   : 0.1466  
 
-####  fBodyBodyGyroJerkMag_std
+####  fbodybodygyrojerkmagstd
 
         Min.   :-0.9976  
         1st Qu.:-0.9802  
         Median :-0.8941  
         Mean   :-0.7715  
         3rd Qu.:-0.6081  
-        Max.   : 0.2878  
+        Max.   : 0.2878 
 
 
 ### Reference
